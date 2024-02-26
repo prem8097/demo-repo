@@ -8,6 +8,7 @@ RUNNABLE : A thread in execution.
 BLOCKED : A thread in a blocked state.
 WAITING : A thread in a waiting state.
 TIMED_WAITING : A state for a waiting thread with a specified waiting time.
+This is multithreading java program
 */
 class MultiThreading extends Thread{
     public void run()
