@@ -9,6 +9,7 @@ BLOCKED : A thread in a blocked state.
 WAITING : A thread in a waiting state.
 TIMED_WAITING : A state for a waiting thread with a specified waiting time.
 This is multithreading java program
+Git hub
 */
 class MultiThreading extends Thread{
     public void run()
@@ -23,7 +24,6 @@ class MultiThreading extends Thread{
             {
                 System.out.println(e);
             }
-           
         }
     }
     public static void main(String[] args) throws InterruptedException {
